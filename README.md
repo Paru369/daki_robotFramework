@@ -4,17 +4,14 @@
 </h1>
 
 
-# POC RobotFramework + DAKI
+# DAKI  + RobotFramework 
 
-Prova de conceito de automação do app Daki com RobotFramework
-
+Automação do app Daki com RobotFramework
 
 
 ## O tem aqui:
 
-- ✅ testes mobile
-- ✅ apk daki assinatura 573edd0945ff6ae72e7cf0bfc5a178b8d525a7c5
-
+- ✅ testes mobile e2e
 
 ## 🗒️ Pré-requisitos
 
@@ -29,7 +26,7 @@ Você vai precisar das seguintes ferramentas e tecnologias:
 
 ## 💻 Ferramentas
 
- [JDK 11 ](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html).
+ [JDK](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html).
 
 [Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)
 
