@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img alt="Daki+robot" title="Robot" src=".img/splash.png" width="50%" />
+    <img alt="Daki+robot" title="Robot" src=".img/splash.png" width="100%" />
 </h1>
 
 
