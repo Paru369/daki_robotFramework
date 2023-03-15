@@ -114,7 +114,7 @@ Configs:
 - Abra o Appium Desktop e clique em Start Server;
 - Acesse a pasta do projeto;
 - Instale o Robot e a Lib do Appium conforme descrito na [doc](https://robotframework.org/);
-- Execute o comando: `robot -d ./logs tests'`;
+- Execute o comando: `robot -d ./logs <daki_tests.robot>`;
 - Enjoy.
 
 ## 📝 Notas do autor
