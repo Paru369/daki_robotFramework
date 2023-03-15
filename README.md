@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img alt="Daki+robot" title="Robot" src=".github/splash.png" width="50%" />
+    <img alt="Daki+robot" title="Robot" src=".img/splash.png" width="50%" />
 </h1>
 
 
@@ -80,7 +80,7 @@ appium-doctor --android
 - Deve aprensentar um resultado similar ao da imagem abaixo:
 
 <h1 align="left">
-    <img alt="QAninja Academy" src=".github/doctor.png" width="100%" />
+    <img alt="doctor" src=".img/doctor.png" width="100%" />
 </h1>
  
 ## 📱Appium Desktop + Appium  Inspector
