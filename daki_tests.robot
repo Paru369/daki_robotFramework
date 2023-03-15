@@ -3,22 +3,15 @@ Documentation    Essa suíte testa o app Daki
 Resource         daki_resources.robot
 
 
-
 ***Test Cases***
 
-Inicia a apk
-    Open Application    http://localhost:4723/wd/hub
-    ...                 automationName=UiAutomator2
-    ...                 platformName=Android
-    ...                 deviceName=Pixel_4_API_30
-    ...                 app=${EXECDIR}/app/daki.apk
-    ...                 udid=emulator-5554
-
+Inicializa a APK:
+    
+    Inicia a apk
     Verifica se a aplicação inicializou
 
 Caso de Teste 01 - Aceitar o cupom
-    [Documentation]    Esse teste verifica o cupom inicial ao abrir o app
-    ...                
+    [Documentation]    Esse teste verifica o cupom inicial ao abrir o app              
     [Tags]             cupom  inicializacao
 
     Avança nas telas inciais: "PRODUTOS EM FALTA?" e "EXPERIMENTE JÁ!" 
@@ -33,4 +26,13 @@ Caso de Teste 02 - Inserindo endereço
     Informa que não tem complemento
     Salva o endereço
     Confirma que o endereço esta presente na tela inicial  
+
+Caso de Teste 03 - Realiza login
+    [Documentation]    Deve acessar o card do cupom DAKI50 e verificar se o mesmo esta na tela
+    [Tags]             cupom DAKI50
+
+    Tap no card DAKI50
+    Confirma se o texto "Cupom: DAKI50" esta tela  
+   
+ 
 

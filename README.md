@@ -83,7 +83,7 @@ appium-doctor --android
     <img alt="doctor" src=".img/doctor.png" width="100%" />
 </h1>
  
-## 📱Appium Desktop + Appium  Inspector
+## 📱Appium Desktop + Appium  Inspector (dev)
 
 Instale o [Appium Desktop](https://appium.io/downloads.html)
 
@@ -108,12 +108,14 @@ Configs:
     
 5.  Start server   
 
+ Instale o Robot e a Lib do Appium conforme descrito na [doc](https://robotframework.org/);
 
 ## 🪄 Testes
 
-- Abra o Appium Desktop e clique em Start Server;
+- Abra o Appium Desktop e clique em Start Server ou rode `appium` em um terminal e a outra:
+
 - Acesse a pasta do projeto;
-- Instale o Robot e a Lib do Appium conforme descrito na [doc](https://robotframework.org/);
+-
 - Execute o comando: `robot -d ./logs <daki_tests.robot>`;
 - Enjoy.
 
